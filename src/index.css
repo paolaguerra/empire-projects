@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card.projects {
+  display: flex;
+  margin: 15px;
+}
+
+.empire-project-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input {
+  flex: 1 1;
+  height: 46px;
+  font-size: 14px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border-width: thin;
+  border-color: #c1c1c1;
+  border-style: double;
+  display: flex;
+}
+
+.content-input {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+button.btn.btn-danger {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+button.btn.btn-primary.new-project {
+  background: none;
+  border: none;
+  color: #2c2b2b;
+  margin-top: 2px;
+}
