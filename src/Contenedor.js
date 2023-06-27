@@ -106,9 +106,9 @@ export const Contenedor = () => {
   };
 
   const onSendContenedor = (newProject) => {
-    const updatedArray = [newProject, ...cards]
+    const updatedArray = [newProject, ...cards];
     setCards(updatedArray);
-  }
+  };
 
   useEffect(() => {
     setCards(empireProyect);
@@ -118,7 +118,10 @@ export const Contenedor = () => {
 
   return (
     <>
-      <InputSearch onSearch={onSearch} onSendContenedor={onSendContenedor}></InputSearch>
+      <InputSearch
+        onSearch={onSearch}
+        onSendContenedor={onSendContenedor}
+      ></InputSearch>
       <div className="empire-project-content">
         {cards.map((data) => {
           return (
