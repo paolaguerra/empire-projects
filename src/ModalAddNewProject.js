@@ -153,7 +153,7 @@ const projectDescription = (event) => {
               >
                 Close
               </button>
-              <button type="button" className="btn btn-primary" onClick={sendProjectInfo}>
+              <button type="button" className="btn btn-primary" onClick={sendProjectInfo} data-bs-dismiss="modal">
                 Save
               </button>
             </div>
